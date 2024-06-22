@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color:white;
+}
+
+input[type="text"] {
+    width: 89%;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+button[type="submit"] {
+    background-color:green;
+    color: red;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #3333;
+}
+task-list {
+    list-style: none;
+    padding: 23px;
+    margin: 0;
+}
